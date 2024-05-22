@@ -63,7 +63,7 @@ function game_mode() {
       Start_game.style.visibility = "visible"
       map.style.visibility = "hidden"
       status = "off"
-      Start_game.children[0].textContent = "你离宝藏只有一步之遥哦"
+      Start_game.children[0].textContent = "v你离宝藏只有一步之遥哦"
       Start_game.children[0].dataset.text = "..."
       clearInterval(game_status)                    //暂停游戏
   }
@@ -195,7 +195,7 @@ function game_over(){   //游戏结束
   status = "off"
   key_status = true
   game_over_val = 0
-  Start_game.children[0].textContent = "恭喜发现宝藏8😊"
+  Start_game.children[0].textContent = "恭喜发现宝藏e8😊"
   Start_game.children[0].dataset.text = ""
   clearInterval(game_status)                 
 }
